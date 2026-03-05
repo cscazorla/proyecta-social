@@ -1,0 +1,171 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Proyecta Social — Asesores de Organizaciones No Gubernamentales</title>
+  <meta name="description" content="Proyecta Social: asesoramiento integral para asociaciones, fundaciones y organizaciones no gubernamentales. Creación, captación de fondos, proyectos, contabilidad y estrategia.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+  <header class="header">
+    <div class="container header__inner">
+      <a href="#" class="logo">
+        <span class="logo__diamond"><span>PS</span></span>
+        <span class="logo__text">
+          <strong>Proyecta Social</strong>
+          <small>Asesores de Organizaciones No Gubernamentales</small>
+        </span>
+      </a>
+      <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false">
+        <span></span><span></span><span></span>
+      </button>
+      <nav class="nav" id="nav">
+        <a href="#servicios">Servicios</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container hero__inner">
+      <h1>Impulsamos el tercer sector</h1>
+      <p>Asesoramiento integral para asociaciones, fundaciones y organizaciones no gubernamentales.</p>
+      <a href="#servicios" class="btn">Nuestros servicios</a>
+    </div>
+  </section>
+
+  <section class="servicios" id="servicios">
+    <div class="container">
+      <h2>Servicios</h2>
+      <div class="servicios__grid">
+
+        <div class="servicio-card">
+          <h3>Creación de organizaciones</h3>
+          <ul>
+            <li>Preparación de Estatutos y Acta Fundacional</li>
+            <li>Asesoramiento y Registros</li>
+            <li>Apertura de delegaciones</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card">
+          <h3>Planes de captación de fondos</h3>
+          <ul>
+            <li>Elaboramos tu plan de captación de fondos, con convocatorias y subvenciones a las que tu organización puede optar</li>
+            <li>Sistema de alerta de subvenciones</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card">
+          <h3>Elaboración de proyectos</h3>
+          <ul>
+            <li>Elaboramos proyectos para su presentación a las distintas convocatorias</li>
+            <li>Justificación</li>
+            <li>Comunicación con entidades públicas y privadas</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card">
+          <h3>Asesoramiento financiero y fiscal</h3>
+          <p class="servicio-card__subtitle">Asociaciones y Fundaciones</p>
+          <ul>
+            <li>Contabilidad Financiera</li>
+            <li>Contabilidad Analítica</li>
+            <li>Cuentas Anuales</li>
+            <li>Elaboración y presentación de Impuestos</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card">
+          <h3>Estrategia y asesoramiento empresarial</h3>
+          <ul>
+            <li>Asesoramiento en Implementación de ERP y otros sistemas</li>
+            <li>Negociación Bancaria</li>
+            <li>Elaboración de Presupuestos</li>
+          </ul>
+        </div>
+
+        <div class="servicio-card">
+          <h3>Marketing y redes sociales</h3>
+          <ul>
+            <li>Estrategia de publicación de contenidos en redes sociales</li>
+            <li>Creación de contenidos</li>
+            <li>Publicaciones</li>
+            <li>Elaboración de dossier empresarial</li>
+          </ul>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <section class="contacto" id="contacto">
+    <div class="container contacto__inner">
+
+      <div class="contacto__info">
+        <h2>Contacto</h2>
+        <p>¿Tienes alguna pregunta o quieres que te asesoremos? Escríbenos y nos pondremos en contacto contigo.</p>
+        <ul class="contacto__datos">
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/><polyline points="22,6 12,13 2,6"/></svg>
+            <a href="mailto:infobpgestioncontable@gmail.com">infobpgestioncontable@gmail.com</a>
+          </li>
+          <li>
+            <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M22 16.92v3a2 2 0 01-2.18 2 19.79 19.79 0 01-8.63-3.07 19.5 19.5 0 01-6-6 19.79 19.79 0 01-3.07-8.67A2 2 0 014.11 2h3a2 2 0 012 1.72c.127.96.362 1.903.7 2.81a2 2 0 01-.45 2.11L8.09 9.91a16 16 0 006 6l1.27-1.27a2 2 0 012.11-.45c.907.338 1.85.573 2.81.7A2 2 0 0122 16.92z"/></svg>
+            <a href="tel:+34679240209">679 240 209</a>
+          </li>
+        </ul>
+      </div>
+
+      <form class="contacto__form" name="contacto" method="POST" data-netlify="true" netlify-honeypot="bot-field">
+        <input type="hidden" name="form-name" value="contacto">
+        <p class="hidden" aria-hidden="true">
+          <label>No rellenar: <input name="bot-field"></label>
+        </p>
+        <div class="form-group">
+          <label for="nombre">Nombre</label>
+          <input type="text" id="nombre" name="nombre" required>
+        </div>
+        <div class="form-group">
+          <label for="email">Email</label>
+          <input type="email" id="email" name="email" required>
+        </div>
+        <div class="form-group">
+          <label for="telefono">Teléfono</label>
+          <input type="tel" id="telefono" name="telefono">
+        </div>
+        <div class="form-group">
+          <label for="mensaje">Mensaje</label>
+          <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+        </div>
+        <button type="submit" class="btn">Enviar mensaje</button>
+      </form>
+
+    </div>
+  </section>
+
+  <footer class="footer">
+    <div class="container footer__inner">
+      <span class="logo logo--small">
+        <span class="logo__diamond"><span>PS</span></span>
+        <span class="logo__text">
+          <strong>Proyecta Social</strong>
+        </span>
+      </span>
+      <p>&copy; 2025 Proyecta Social. Todos los derechos reservados.</p>
+    </div>
+  </footer>
+
+  <script>
+    document.querySelector('.menu-toggle').addEventListener('click', function () {
+      const nav = document.getElementById('nav');
+      const expanded = this.getAttribute('aria-expanded') === 'true';
+      this.setAttribute('aria-expanded', !expanded);
+      nav.classList.toggle('nav--open');
+    });
+  </script>
+
+</body>
+</html>
